@@ -21,7 +21,24 @@ git config --global user.email MEU_EMAIL@EMAIL.COM.BR
 git init
 ```
 
-**4- Contectar repositorio local com repositorio remoto do github.**
+**4- add e Commit.**
+
+Adicionar todos os arquivo na staggin area
+```
+git add .
+```
+
+Adicionar um unico arquivo
+```
+git add nome do arquivo
+```
+
+Adicionar todos arquivo com extensão específica
+```
+git add *.java
+```
+
+**5- Contectar repositorio local com repositorio remoto do github.**
 
 ```
 git remote add origin https://github.com/JoseLuizJunior/EstudoGIT.git
@@ -35,7 +52,7 @@ git pull
 
 Quando aparecer mensagem de merge apertar as teclas **ctrl + x**
 
-**5 - Enviar arquivo para repositório remoto**
+**6 - Enviar arquivo para repositório remoto**
 
 ```
 git push origin master
