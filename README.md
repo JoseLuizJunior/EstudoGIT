@@ -7,6 +7,8 @@ Windows: https://gitforwindows.org/
 
 Linux: https://git-scm.com/download/linux
 
+Mac: https://git-scm.com/download/mac
+
 **2 - Configurações globais obrigatórias do git**
 
 Usuario e email:
