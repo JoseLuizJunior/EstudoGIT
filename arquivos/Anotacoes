@@ -6,3 +6,8 @@ Repositório - Local de gravação dos arquivos.
 
 Repositório Local - Acessível apenas para o criador do repositório.
 
+
+.gitignore
+   src/      - ignora a pasta e todo seu conteúdo.
+   *.log     - ignora todos arquivos da extensão .log
+   src/*.log - ignora todos arquivos dentro da pastar src/ com estensão .log

@@ -13,13 +13,13 @@ Mac: https://git-scm.com/download/mac
 
 Usuario e email:
 ```
-git config --global user.name "MEU NOME"
+git config --global user.name  MEU NOME
 git config --global user.email MEU_EMAIL@EMAIL.COM.BR
 ```
 
 **3 - Criar um repositorio local**
 
-Caso seja um repositorio novo
+Caso seja um repositorio novo.
 ```
 git init
 ```
@@ -34,22 +34,22 @@ Ao clonar não seguir o passo 5.
 
 **4- add e Commit.**
 
-Marca todos os arquivo como tracked "rastreado" envia para stage area
+Marca todos os arquivo como tracked "rastreado" envia para stage area.
 ```
 git add .
 ```
 
-Marca um unico arquivo como tracked "rastreado"
+Marca um unico arquivo como tracked "rastreado".
 ```
 git add nomeDoArquivo
 ```
 
-Marca todos como tracked "rastreado", arquivo com extensão específica
+Marca todos como tracked "rastreado", arquivo com extensão específica.
 ```
 git add *.java
 ```
 
-Envia arquivos tracked "rastreado" para o respositório local
+Envia arquivos tracked "rastreado" para o respositório local.
 ```
 git commit -m "descrição do commit"
 ```
@@ -73,9 +73,43 @@ Quando aparecer mensagem de merge apertar as teclas **ctrl + x**
 git push origin master
 ```
 
+**7 - Visualizar histórico de commits**
+
+Para navegar usar ENTER próxima linha, para sair usar tecla Q.
+
+Exibe todo o histórico de commits realizados no repositório.
+```
+git log
+```
+
+Exibe histórico de commits simplificado.
+```
+git log --oneline
+```
+
+Exibe histórico e identifica os arquivos alterados.
+```
+git log --stat
+```
+
+**8 - Visualizar alterações de arquivos**
+
+Exibe alterações feitas no arquivo ANTES de executar comando git add.
+```
+git diff nome_arquivo.txt
+```
+
+Exibe alterações feitas no arquivo DEPOIS de executar comando git add.
+```
+git diff --staged
+```
+
 ## Curiosidades
 
-Comando commit -a ignora a etapa de rastrear o arquivo. Funciona somente para arquivos que já foram comitados 
+Comando commit -a ignora a etapa de rastrear o arquivo. Funciona somente para arquivos que já foram comitados.
 ```
 git commit -am "descrição do commit"
 ```
+
+Para não exibir arquivos não rastreados "untracked" configurar um arquivo chamado .gitignore
+Link de Templates de .gitignore - https://github.com/github/gitignore
