@@ -19,3 +19,5 @@ git diff 222cccc..8877887
 
 Este comando exibe a diferença entre os dois últimos commits e dos arquivos ainda não commitados
 git diff 70a96b894e7997a0e7cd0db5fb4ff1e82d74e2ea~2
+
+
