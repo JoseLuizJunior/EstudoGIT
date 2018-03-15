@@ -111,6 +111,25 @@ Remove arquivos que foram commitados; para concluir executar commit
 git rm nome_arquivo.txt
 ```
 
+**10 - Renomear/mover arquivos**
+
+Renomea o arquivo sem gerar log de arquivo excluido
+```
+git mv nome_arquivo novo_nome_arquivo
+```
+
+Move o arquivo para o diretório pasta_nova
+```
+git mv nome_arquivo pasta_nova/nome_arquivo
+```
+
+**11 - Desfazer alterações**
+
+Desfaz alterações de arquivos não rastreados
+```
+git checkout nome_arquivo.extensao
+```
+
 ## Curiosidades
 
 Comando commit -a ignora a etapa de rastrear o arquivo. Funciona somente para arquivos que já foram comitados.
