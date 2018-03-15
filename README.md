@@ -135,7 +135,12 @@ Desfaz alterações de arquivos rastreados - volta arquivo da staged área para 
 git reset nome_arquivo.extensao
 ```
 
-Descarta alterações de arquivos rastreados - Apaga as alterações de todos arquivos da staged área
+Reverte e gera commit de revert
+```
+git revert --no-edit b265d26
+```
+
+Descarta alterações de arquivos rastreados - Apaga as alterações de todos arquivos da staged área - Não revert push
 ```
 git reset --hard
 ```
