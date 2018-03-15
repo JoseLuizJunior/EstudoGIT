@@ -130,6 +130,16 @@ Desfaz alterações de arquivos não rastreados
 git checkout nome_arquivo.extensao
 ```
 
+Desfaz alterações de arquivos rastreados - volta arquivo da staged área para working directory
+```
+git reset nome_arquivo.extensao
+```
+
+Descarta alterações de arquivos rastreados - Apaga as alterações de todos arquivos da staged área
+```
+git reset --hard
+```
+
 ## Curiosidades
 
 Comando commit -a ignora a etapa de rastrear o arquivo. Funciona somente para arquivos que já foram comitados.
