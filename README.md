@@ -104,6 +104,13 @@ Exibe alterações feitas no arquivo DEPOIS de executar comando git add.
 git diff --staged
 ```
 
+**9 - Deletar arquivos commitados**
+
+Remove arquivos que foram commitados; para concluir executar commit
+```
+git rm nome_arquivo.txt
+```
+
 ## Curiosidades
 
 Comando commit -a ignora a etapa de rastrear o arquivo. Funciona somente para arquivos que já foram comitados.

@@ -11,3 +11,11 @@ Repositório Local - Acessível apenas para o criador do repositório.
    src/      - ignora a pasta e todo seu conteúdo.
    *.log     - ignora todos arquivos da extensão .log
    src/*.log - ignora todos arquivos dentro da pastar src/ com estensão .log
+
+
+Exibe a diferença entre os cois commits
+git diff 222cccc..8877887
+
+
+Este comando exibe a diferença entre os dois últimos commits e dos arquivos ainda não commitados
+git diff 70a96b894e7997a0e7cd0db5fb4ff1e82d74e2ea~2
